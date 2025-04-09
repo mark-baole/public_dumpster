@@ -2,8 +2,8 @@ import os
 import base64
 
 CHUNK_SIZE = 1024 * 1024  # 1 MB chunks
-INPUT_FILE = 'py312.zip'
-OUTPUT_DIR = 'py312_chunks'
+INPUT_FILE = 'miniconda.zip'
+OUTPUT_DIR = 'miniconda_chunks'
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
