@@ -2,8 +2,8 @@ import os
 import base64
 
 CHUNK_SIZE = 1024 * 1024 * 50  # 1 MB chunks
-INPUT_FILE = 'miniconda.zip'
-OUTPUT_DIR = 'miniconda_chunks'
+INPUT_FILE = 'databricks.databricks-2.9.2-win32-x64.zip'
+OUTPUT_DIR = 'databricks.databricks-2.9.2-win32-x64_chunks'
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
